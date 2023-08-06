@@ -1,3 +1,5 @@
+#!/bin/bash
+
 function install_arkade()
 {
   command -v arkade || {
