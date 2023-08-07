@@ -2,8 +2,8 @@
 
 function install_arkade() {
   command -v arkade || {
-    curl -sLS -o /tmp/ark.sh https://get.arkade.dev
-    . /tmp/ark.sh
+    curl -sLS -o /tmp/ark.sh https://get.arkade.dev;
+    . /tmp/ark.sh;
   }
 }
 
